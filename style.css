@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo h2 {
+    color: #F9FFF8;
+    margin: 10px;
+}
+
+.links h4 {
+    color: #F9FFF8;
+    margin: 10px;
+    padding: 10px;
+}
