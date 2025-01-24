@@ -19,14 +19,54 @@ body {
     align-items: center;
 }
 
-.links .first {
+.links .first a {
     background-color: #1F2937;
     color: #F9FFF8;
+    text-decoration: none;
     margin: 10px;
 }
 
-.links .second {
+.links .second a {
     background-color: #1F2937;
     color: #F9FFF8;
+    text-decoration: none;
     margin: 10px
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FFF8;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 125px;
+}
+
+.main-title {
+    font-size: 48px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.main-subtext {
+    width: 400px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.main-container button {
+    width: 100px;
+    height: 35px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.main-image {
+    margin-right: 150px;
+    margin-top: 80px;
 }
