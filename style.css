@@ -5,17 +5,28 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
 }
 
 .logo h2 {
     color: #F9FFF8;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links .first {
+    background-color: #1F2937;
+    color: #F9FFF8;
     margin: 10px;
 }
 
-.links h4 {
+.links .second {
+    background-color: #1F2937;
     color: #F9FFF8;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px
 }
