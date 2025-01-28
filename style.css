@@ -84,6 +84,13 @@ body {
 .main-image {
     margin-right: 150px;
     margin-top: 80px;
+    height: 200px;
+    width: 450px;
+    background-color: grey;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-title {
