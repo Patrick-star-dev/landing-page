@@ -148,3 +148,40 @@ body {
     font-weight: bold;
     margin-bottom: 100px;
 }
+
+.subscription {
+    display: flex;
+    flex-direction: row;
+    margin: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.subscription button {
+    margin: 50px;
+    margin-right: 125px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FFF8;
+    border-radius: 10px;
+    color: #F9FFF8;
+    font-size: 16px;
+    font-weight: bold;
+    width: 125px;
+    height: 35px;
+}
+
+.sign-up{
+    display: flex;
+    color: #F9FFF8;
+    margin: 50px;
+    margin-left: 125px;
+}
+
+.sign-up .subscribe-title {
+    font-size: 26px;
+    font-weight: bold;
+}
