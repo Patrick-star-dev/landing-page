@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto';
 }
 
 .header-container {
@@ -27,6 +28,13 @@ body {
 }
 
 .links .second a {
+    background-color: #1F2937;
+    color: #F9FFF8;
+    text-decoration: none;
+    margin: 10px
+}
+
+.links .third a {
     background-color: #1F2937;
     color: #F9FFF8;
     text-decoration: none;
@@ -60,6 +68,12 @@ body {
 }
 
 .main-container button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: #F9FFF8;
+    font-size: 16px;
+    font-weight: bold;
     width: 100px;
     height: 35px;
     margin-left: 150px;
@@ -69,4 +83,25 @@ body {
 .main-image {
     margin-right: 150px;
     margin-top: 80px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #F9FFF8;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.info-boxes {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    
 }
